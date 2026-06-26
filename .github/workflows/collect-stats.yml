@@ -16,7 +16,7 @@ jobs:
 
       - name: Collect stats
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
           GH_USERNAME: nidhi-menon
         run: python3 collect_stats.py
 
