@@ -133,12 +133,7 @@
     color: var(--text-muted);
   }
   .repo-stat { display: flex; align-items: center; gap: 4px; }
-  .lang-dot {
-    width: 10px; height: 10px;
-    border-radius: 50%;
-    background: var(--accent);
-    flex-shrink: 0;
-  }
+  .octicon { flex-shrink: 0; }
 
   .referrer-list { list-style: none; }
   .referrer-item {
@@ -155,7 +150,8 @@
   .referrer-count { font-size: 12px; color: var(--text-muted); min-width: 32px; text-align: right; }
 
   .legend { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px; font-size: 12px; color: var(--text-secondary); }
-  .legend-item { display: flex; align-items: center; gap: 5px; }
+  .legend-item { display: flex; align-items: center; gap: 5px; cursor: pointer; user-select: none; }
+  .legend-item.hidden { opacity: 0.35; text-decoration: line-through; }
   .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
 
   .loading { text-align: center; color: var(--text-muted); font-size: 13px; padding: 3rem; }
@@ -181,6 +177,43 @@
 
   .updated { font-size: 11px; color: var(--text-muted); text-align: right; margin-top: 1.5rem; }
   .note { font-size: 11px; color: var(--text-muted); margin-top: 0.75rem; }
+
+  .all-repos-details { margin-top: 1rem; }
+  .all-repos-summary {
+    font-size: 12px;
+    color: var(--text-muted);
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .all-repos-summary::-webkit-details-marker { display: none; }
+  .all-repos-summary::before { content: "▸"; font-size: 10px; transition: transform 0.15s; }
+  details[open] .all-repos-summary::before { transform: rotate(90deg); }
+  .all-repos-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-top: 0.75rem;
+  }
+  .all-repos-table th {
+    text-align: left;
+    color: var(--text-muted);
+    font-weight: 400;
+    padding: 4px 8px 6px 0;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .all-repos-table th:last-child { text-align: right; }
+  .all-repos-table td {
+    padding: 6px 8px 6px 0;
+    border-bottom: 0.5px solid var(--border);
+    color: var(--text-secondary);
+  }
+  .all-repos-table td:last-child { text-align: right; color: var(--text-primary); font-variant-numeric: tabular-nums; }
+  .all-repos-table tr:last-child td { border-bottom: none; }
+  .all-repos-table .rank { color: var(--text-muted); width: 24px; }
 </style>
 </head>
 <body>
@@ -193,18 +226,22 @@
 </div>
 
 <div class="section">
-  <h2 id="chart-heading">Stars over time</h2>
+  <h2 id="chart-heading">Clones (14d) over time</h2>
   <div class="tab-row" id="metric-tabs">
-    <button class="tab active" data-metric="stars">Stars</button>
-    <button class="tab" data-metric="forks">Forks</button>
+    <button class="tab active" data-metric="clones_14d">Clones (14d)</button>
     <button class="tab" data-metric="views_14d">Views (14d)</button>
-    <button class="tab" data-metric="clones_14d">Clones (14d)</button>
+    <button class="tab" data-metric="stars">Stars</button>
+    <button class="tab" data-metric="forks">Forks</button>
   </div>
   <div class="legend" id="chart-legend"></div>
   <div class="chart-wrap" style="height: 240px;">
     <canvas id="trendChart" role="img" aria-label="Line chart showing repo metrics over time">Loading chart data…</canvas>
   </div>
   <p class="note">Showing top 5 repos by selected metric. Views and clones reflect a rolling 14-day window.</p>
+  <details class="all-repos-details" id="all-repos-details">
+    <summary class="all-repos-summary">Show all repos</summary>
+    <table class="all-repos-table" id="all-repos-table"></table>
+  </details>
 </div>
 
 <div class="section">
@@ -228,17 +265,11 @@
 <script>
 const STATS_URL = "https://raw.githubusercontent.com/nidhi-menon/nidhi-gh-stats/main/metrics-history.json";
 
-const LANG_COLORS = {
-  Python: "#3776ab", JavaScript: "#f7df1e", TypeScript: "#3178c6",
-  Rust: "#dea584", Go: "#00add8", Java: "#b07219", "C++": "#f34b7d",
-  Shell: "#89e051", Jupyter: "#da5b0b", HTML: "#e34c26"
-};
-
 const SERIES_COLORS = ["#2a78d6","#1baf7a","#eda100","#4a3aa7","#e34948","#e87ba4"];
 
 let history = null;
 let trendChart = null;
-let activeMetric = "stars";
+let activeMetric = "clones_14d";
 
 async function load() {
   try {
@@ -257,7 +288,7 @@ function render() {
   if (!snapshots.length) return;
 
   const latest = snapshots[snapshots.length - 1];
-  const repos = Object.entries(latest.repos);
+  const repos = Object.entries(latest.repos).filter(([name]) => !WIDGET_EXCLUDE.has(name.split("/")[1]));
 
   document.getElementById("last-updated").textContent =
     `Last updated ${latest.date} · ${repos.length} public repos`;
@@ -265,6 +296,7 @@ function render() {
   renderKPIs(repos, snapshots);
   renderRepos(repos);
   renderTrend(snapshots, activeMetric);
+  renderAllRepos(repos, activeMetric);
   renderReferrers(repos);
 
   document.getElementById("updated-note").textContent =
@@ -314,6 +346,10 @@ function renderKPIs(repos, snapshots) {
 
 // Set to a list of short repo names to fix display order, e.g. ["HealthSteward", "StackOverflow-Data-Analytics"]
 // Leave empty to sort by stars. Run the widget, drag to your preferred order, click "Copy order" to generate this list.
+const WIDGET_EXCLUDE = new Set([
+  // "repo-name",
+]);
+
 const REPO_ORDER = [
   "HealthSteward",
   "StackOverflow-Data-Analytics",
@@ -347,15 +383,15 @@ function renderRepos(repos) {
 
   document.getElementById("repo-grid").innerHTML = sorted.map(([fullName, r]) => {
     const shortName = fullName.split("/")[1];
-    const langColor = LANG_COLORS[r.language] || "#898781";
     return `
       <div class="repo-card">
         <div class="repo-name" title="${fullName}">${shortName}</div>
         <div class="repo-desc">${r.description || "No description"}</div>
         <div class="repo-stats">
-          <span class="repo-stat">⭐ ${r.stars}</span>
-          <span class="repo-stat">🍴 ${r.forks}</span>
-          ${r.language ? `<span class="repo-stat"><span class="lang-dot" style="background:${langColor}"></span>${r.language}</span>` : ""}
+          <span class="repo-stat"><svg class="octicon" viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg> ${r.stars}</span>
+          <span class="repo-stat"><svg class="octicon" viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/></svg> ${r.forks}</span>
+          <span class="repo-stat"><svg class="octicon" viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M8 2c1.981 0 3.671.992 4.933 2.078 1.27 1.091 2.187 2.345 2.637 3.023a1.62 1.62 0 0 1 0 1.798c-.45.678-1.367 1.932-2.637 3.023C11.67 13.008 9.981 14 8 14c-1.981 0-3.671-.992-4.933-2.078C1.797 10.83.88 9.576.43 8.898a1.62 1.62 0 0 1 0-1.798c.45-.677 1.367-1.931 2.637-3.022C4.33 2.992 6.019 2 8 2ZM1.679 7.932a.12.12 0 0 0 0 .136c.411.622 1.241 1.75 2.366 2.717C5.176 11.758 6.527 12.5 8 12.5c1.473 0 2.825-.742 3.955-1.715 1.124-.967 1.954-2.096 2.366-2.717a.12.12 0 0 0 0-.136c-.412-.621-1.242-1.75-2.366-2.717C10.825 4.242 9.473 3.5 8 3.5c-1.473 0-2.825.742-3.955 1.715-1.124.967-1.954 2.096-2.366 2.717ZM8 10a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 10Z"/></svg> ${r.views_14d ?? 0}</span>
+          <span class="repo-stat"><svg class="octicon" viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"/><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> ${r.clones_14d ?? 0}</span>
         </div>
       </div>
     `;
@@ -400,7 +436,9 @@ function renderTrend(snapshots, metric) {
   document.getElementById("chart-heading").textContent = METRIC_LABELS[metric] || "Metric over time";
 
   const allRepos = new Set();
-  snapshots.forEach(s => Object.keys(s.repos).forEach(r => allRepos.add(r)));
+  snapshots.forEach(s => Object.keys(s.repos).forEach(r => {
+    if (!WIDGET_EXCLUDE.has(r.split("/")[1])) allRepos.add(r);
+  }));
 
   const topRepos = [...allRepos]
     .map(name => {
@@ -427,7 +465,7 @@ function renderTrend(snapshots, metric) {
 
   const legendEl = document.getElementById("chart-legend");
   legendEl.innerHTML = topRepos.map((name, i) =>
-    `<span class="legend-item"><span class="legend-dot" style="background:${SERIES_COLORS[i]}"></span>${name.split("/")[1]}</span>`
+    `<span class="legend-item" data-index="${i}"><span class="legend-dot" style="background:${SERIES_COLORS[i]}"></span>${name.split("/")[1]}</span>`
   ).join("");
 
   const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -460,6 +498,45 @@ function renderTrend(snapshots, metric) {
       interaction: { mode: "nearest", axis: "x", intersect: false },
     },
   });
+
+  legendEl.querySelectorAll(".legend-item").forEach(item => {
+    item.addEventListener("click", () => {
+      const i = parseInt(item.dataset.index);
+      const meta = trendChart.getDatasetMeta(i);
+      meta.hidden = !meta.hidden;
+      item.classList.toggle("hidden", meta.hidden);
+      trendChart.update();
+    });
+  });
+}
+
+const METRIC_COL_LABEL = {
+  stars: "Stars",
+  forks: "Forks",
+  views_14d: "Views (14d)",
+  clones_14d: "Clones (14d)",
+};
+
+function renderAllRepos(repos, metric) {
+  const sorted = [...repos].sort(([, a], [, b]) => (b[metric] || 0) - (a[metric] || 0));
+  document.getElementById("all-repos-table").innerHTML = `
+    <thead>
+      <tr>
+        <th class="rank">#</th>
+        <th>Repo</th>
+        <th>${METRIC_COL_LABEL[metric] || metric}</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${sorted.map(([fullName, r], i) => `
+        <tr>
+          <td class="rank">${i + 1}</td>
+          <td>${fullName.split("/")[1]}</td>
+          <td>${r[metric] ?? "—"}</td>
+        </tr>
+      `).join("")}
+    </tbody>
+  `;
 }
 
 function renderReferrers(repos) {
@@ -495,7 +572,11 @@ document.getElementById("metric-tabs").addEventListener("click", e => {
   activeMetric = e.target.dataset.metric;
   document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
   e.target.classList.add("active");
-  if (history) renderTrend(history.snapshots, activeMetric);
+  if (history) {
+    const latest = history.snapshots[history.snapshots.length - 1];
+    renderTrend(history.snapshots, activeMetric);
+    renderAllRepos(Object.entries(latest.repos), activeMetric);
+  }
 });
 
 load();
