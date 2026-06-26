@@ -24,14 +24,20 @@ Nightly collection of stars, forks, views, clones, and referrer traffic across a
 
 ## Behavior
 
-- **Forks and archived repos are excluded** from collection
-- **Each snapshot is dated yesterday** — the job runs at 2am PDT / 1am PST so the previous day is fully complete before collection
+- **Forks and archived repos are excluded** from collection automatically
+- **Each snapshot is dated yesterday** — the job runs at 9am UTC (~1–2am Pacific) so the previous day is fully complete before collection
 - **Duplicate dates are deduplicated** — re-running the workflow on the same day replaces rather than appends
-- To exclude specific repos, add their short names to `EXCLUDE_REPOS` in `collect_stats.py`
-- To fix the display order in the widget, edit `REPO_ORDER` in `portfolio-widget.html`
+- To exclude specific repos from collection, add their short names to `EXCLUDE_REPOS` in `collect_stats.py`
+- To hide repos from the widget without removing them from collection, add their short names to `WIDGET_EXCLUDE` in `portfolio-widget.html`
+- To fix the display order of repo cards, edit `REPO_ORDER` in `portfolio-widget.html`
 
 ## Widget
 
 Open `portfolio-widget.html` directly, embed it via `<iframe>`, or enable GitHub Pages on this repo.
 
-The widget shows KPI cards, a trend chart (top 5 repos by selected metric, daily granularity for views/clones), a repo grid, and aggregated referrer traffic.
+The widget includes:
+- **KPI cards** — total stars, forks, views, and clones across all repos
+- **Trend chart** — top 5 repos by selected metric; click legend items to show/hide series
+- **Repo cards** — stars, forks, views, and clones per repo; names link to GitHub
+- **All repos table** — expandable ranked list sorted by selected metric
+- **Top traffic sources** — referrers aggregated across all repos
