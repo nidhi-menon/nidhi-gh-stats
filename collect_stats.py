@@ -4,12 +4,8 @@ TOKEN = os.environ["GH_TOKEN"]
 USERNAME = os.environ["GH_USERNAME"]
 TODAY = (datetime.date.today() - datetime.timedelta(days=1)).isoformat()
 
-# Add repo short names here to exclude them from tracking
-EXCLUDE_REPOS = {
-    "Computer-Vision-Projects",
-    "DataAggregatorProfiler",
-    "Graduate-Research-in-Computer-Vision-and-Deep-Learning",
-}
+# Add repo short names here to exclude them from tracking, e.g. {"repo-name"}
+EXCLUDE_REPOS = set()
 
 def gh(path):
     req = urllib.request.Request(

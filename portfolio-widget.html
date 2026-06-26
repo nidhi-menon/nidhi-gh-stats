@@ -256,9 +256,8 @@
 
 <div class="section">
   <h2>Top traffic sources</h2>
-  <ul class="referrer-list" id="referrer-list">
-    <div class="loading">Loading referrers…</div>
-  </ul>
+  <p class="loading" id="referrer-loading">Loading referrers…</p>
+  <ul class="referrer-list" id="referrer-list"></ul>
   <p class="note">Aggregated across all repos. Updates nightly.</p>
 </div>
 
@@ -268,6 +267,30 @@
 const STATS_URL = "https://raw.githubusercontent.com/nidhi-menon/nidhi-gh-stats/main/metrics-history.json";
 
 const SERIES_COLORS = ["#2a78d6","#1baf7a","#eda100","#4a3aa7","#e34948","#e87ba4"];
+
+// Short repo names to hide from the widget without removing from collection.
+const WIDGET_EXCLUDE = new Set([
+  // "repo-name",
+]);
+
+// Fix the display order of repo cards. Leave empty to sort by the active metric.
+const REPO_ORDER = [
+  "HealthSteward",
+  "StackOverflow-Data-Analytics",
+  "PeraNoto-Undergrad-research-project",
+  "nidhi-menon.github.io",
+  "nidhi-gh-stats",
+  "Autodesk-Internship-Project",
+  "Chrysalis-2016-by-Acrotrend-Solutions",
+  "CreativeAI",
+  "Smart-India-Hackathon-2017",
+  "Computer-Vision-Projects",
+  "DataAggregatorProfiler",
+  "Graduate-Research-in-Computer-Vision-and-Deep-Learning",
+  "Meetup.com-Analytics-and-Visualization",
+  "MovieLens-Recommendation-Systems",
+  "Unimate-RecommendationSystem-for-Students"
+];
 
 let history = null;
 let trendChart = null;
@@ -345,30 +368,6 @@ function renderKPIs(repos, snapshots) {
     </div>
   `;
 }
-
-// Set to a list of short repo names to fix display order, e.g. ["HealthSteward", "StackOverflow-Data-Analytics"]
-// Leave empty to sort by stars. Run the widget, drag to your preferred order, click "Copy order" to generate this list.
-const WIDGET_EXCLUDE = new Set([
-  // "repo-name",
-]);
-
-const REPO_ORDER = [
-  "HealthSteward",
-  "StackOverflow-Data-Analytics",
-  "PeraNoto-Undergrad-research-project",
-  "nidhi-menon.github.io",
-  "nidhi-gh-stats",
-  "Autodesk-Internship-Project",
-  "Chrysalis-2016-by-Acrotrend-Solutions",
-  "CreativeAI",
-  "Smart-India-Hackathon-2017",
-  "Computer-Vision-Projects",
-  "DataAggregatorProfiler",
-  "Graduate-Research-in-Computer-Vision-and-Deep-Learning",
-  "Meetup.com-Analytics-and-Visualization",
-  "MovieLens-Recommendation-Systems",
-  "Unimate-RecommendationSystem-for-Students"
-];
 
 function renderRepos(repos) {
   let sorted;
@@ -472,7 +471,7 @@ function renderTrend(snapshots, metric) {
 
   const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const gridColor = isDark ? "rgba(255,255,255,0.07)" : "rgba(11,11,11,0.07)";
-  const textColor = isDark ? "#898781" : "#898781";
+  const textColor = "#898781";
 
   if (trendChart) trendChart.destroy();
 
@@ -542,6 +541,8 @@ function renderAllRepos(repos, metric) {
 }
 
 function renderReferrers(repos) {
+  const loadingEl = document.getElementById("referrer-loading");
+  if (loadingEl) loadingEl.remove();
   const agg = {};
   repos.forEach(([, r]) => {
     (r.top_referrers || []).forEach(({ source, count }) => {
