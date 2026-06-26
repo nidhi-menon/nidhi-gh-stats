@@ -533,7 +533,7 @@ function renderAllRepos(repos, metric) {
       ${sorted.map(([fullName, r], i) => `
         <tr>
           <td class="rank">${i + 1}</td>
-          <td>${fullName.split("/")[1]}</td>
+          <td><a href="https://github.com/${fullName}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">${fullName.split("/")[1]}</a></td>
           <td>${r[metric] ?? "—"}</td>
         </tr>
       `).join("")}
