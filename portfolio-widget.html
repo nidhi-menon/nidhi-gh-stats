@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GitHub Impact</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  :root {
+    --bg: #f9f8f6;
+    --surface: #ffffff;
+    --border: rgba(11,11,11,0.10);
+    --border-strong: rgba(11,11,11,0.18);
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #898781;
+    --accent: #2a78d6;
+    --accent-bg: #e6f1fb;
+    --radius: 8px;
+    --series-1: #2a78d6;
+    --series-2: #1baf7a;
+    --series-3: #eda100;
+    --series-4: #4a3aa7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111110;
+      --surface: #1a1a19;
+      --border: rgba(255,255,255,0.10);
+      --border-strong: rgba(255,255,255,0.18);
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted: #898781;
+      --accent: #3987e5;
+      --accent-bg: #0c447c22;
+      --series-1: #3987e5;
+      --series-2: #199e70;
+      --series-3: #c98500;
+      --series-4: #9085e9;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text-primary);
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 2rem 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  h1 { font-size: 22px; font-weight: 500; margin-bottom: 0.25rem; }
+  h2 { font-size: 16px; font-weight: 500; margin-bottom: 1rem; color: var(--text-primary); }
+  .subtitle { font-size: 13px; color: var(--text-muted); margin-bottom: 2rem; }
+
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin-bottom: 2rem;
+  }
+  .kpi {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem;
+  }
+  .kpi-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .kpi-value {
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--text-primary);
+    line-height: 1;
+  }
+  .kpi-sub {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  .section {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .chart-wrap { position: relative; width: 100%; }
+
+  .repo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 10px;
+  }
+  .repo-card {
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.875rem 1rem;
+  }
+  .repo-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--accent);
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .repo-desc {
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 32px;
+  }
+  .repo-stats {
+    display: flex;
+    gap: 14px;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+  .repo-stat { display: flex; align-items: center; gap: 4px; }
+  .lang-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+
+  .referrer-list { list-style: none; }
+  .referrer-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 0.5px solid var(--border);
+    font-size: 13px;
+  }
+  .referrer-item:last-child { border-bottom: none; }
+  .referrer-bar-wrap { flex: 1; margin: 0 12px; height: 4px; background: var(--border); border-radius: 2px; }
+  .referrer-bar { height: 4px; border-radius: 2px; background: var(--accent); }
+  .referrer-count { font-size: 12px; color: var(--text-muted); min-width: 32px; text-align: right; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px; font-size: 12px; color: var(--text-secondary); }
+  .legend-item { display: flex; align-items: center; gap: 5px; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+  .loading { text-align: center; color: var(--text-muted); font-size: 13px; padding: 3rem; }
+  .error { color: #e24b4a; font-size: 13px; padding: 1rem; }
+
+  .tab-row { display: flex; gap: 6px; margin-bottom: 1rem; }
+  .tab {
+    font-size: 12px;
+    padding: 4px 10px;
+    border: 0.5px solid var(--border-strong);
+    border-radius: var(--radius);
+    cursor: pointer;
+    background: transparent;
+    color: var(--text-secondary);
+    font-family: inherit;
+  }
+  .tab.active {
+    background: var(--accent-bg);
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+  .tab:hover:not(.active) { background: var(--bg); }
+
+  .updated { font-size: 11px; color: var(--text-muted); text-align: right; margin-top: 1.5rem; }
+</style>
+</head>
+<body>
+
+<h1>Open source impact</h1>
+<p class="subtitle" id="last-updated">Loading…</p>
+
+<div class="kpi-row" id="kpi-row">
+  <div class="loading">Fetching stats…</div>
+</div>
+
+<div class="section">
+  <h2>Stars over time</h2>
+  <div class="tab-row" id="metric-tabs">
+    <button class="tab active" data-metric="stars">Stars</button>
+    <button class="tab" data-metric="forks">Forks</button>
+    <button class="tab" data-metric="views_14d">Views (14d)</button>
+    <button class="tab" data-metric="clones_14d">Clones (14d)</button>
+  </div>
+  <div class="legend" id="chart-legend"></div>
+  <div class="chart-wrap" style="height: 240px;">
+    <canvas id="trendChart" role="img" aria-label="Line chart showing repo metrics over time">Loading chart data…</canvas>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Repositories</h2>
+  <div class="repo-grid" id="repo-grid">
+    <div class="loading">Loading repos…</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Top traffic sources</h2>
+  <ul class="referrer-list" id="referrer-list">
+    <div class="loading">Loading referrers…</div>
+  </ul>
+</div>
+
+<p class="updated" id="updated-note"></p>
+
+<script>
+const STATS_URL = "https://raw.githubusercontent.com/nidhi-menon/nidhi-gh-stats/main/metrics-history.json";
+
+const LANG_COLORS = {
+  Python: "#3776ab", JavaScript: "#f7df1e", TypeScript: "#3178c6",
+  Rust: "#dea584", Go: "#00add8", Java: "#b07219", "C++": "#f34b7d",
+  Shell: "#89e051", Jupyter: "#da5b0b", HTML: "#e34c26"
+};
+
+const SERIES_COLORS = ["#2a78d6","#1baf7a","#eda100","#4a3aa7","#e34948","#e87ba4"];
+
+let history = null;
+let trendChart = null;
+let activeMetric = "stars";
+
+async function load() {
+  try {
+    const r = await fetch(STATS_URL);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    history = await r.json();
+    render();
+  } catch (e) {
+    document.getElementById("kpi-row").innerHTML =
+      `<div class="error">Could not load stats. If you're testing locally, host the JSON file or update STATS_URL. (${e.message})</div>`;
+  }
+}
+
+function render() {
+  const snapshots = history.snapshots;
+  if (!snapshots.length) return;
+
+  const latest = snapshots[snapshots.length - 1];
+  const repos = Object.entries(latest.repos);
+
+  document.getElementById("last-updated").textContent =
+    `Last updated ${latest.date} · ${repos.length} public repos`;
+
+  renderKPIs(repos, snapshots);
+  renderRepos(repos);
+  renderTrend(snapshots, activeMetric);
+  renderReferrers(repos);
+
+  document.getElementById("updated-note").textContent =
+    `Data collected nightly via GitHub API`;
+}
+
+function renderKPIs(repos, snapshots) {
+  const totalStars = repos.reduce((s, [, r]) => s + r.stars, 0);
+  const totalForks = repos.reduce((s, [, r]) => s + r.forks, 0);
+  const totalViews = repos.reduce((s, [, r]) => s + (r.views_14d || 0), 0);
+  const totalClones = repos.reduce((s, [, r]) => s + (r.clones_14d || 0), 0);
+
+  let starDelta = "";
+  if (snapshots.length >= 2) {
+    const prev = snapshots[snapshots.length - 2];
+    const prevStars = Object.values(prev.repos).reduce((s, r) => s + r.stars, 0);
+    const d = totalStars - prevStars;
+    starDelta = d >= 0 ? `+${d} since yesterday` : `${d} since yesterday`;
+  }
+
+  document.getElementById("kpi-row").innerHTML = `
+    <div class="kpi">
+      <div class="kpi-label">⭐ Total stars</div>
+      <div class="kpi-value">${totalStars.toLocaleString()}</div>
+      ${starDelta ? `<div class="kpi-sub">${starDelta}</div>` : ""}
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">🍴 Total forks</div>
+      <div class="kpi-value">${totalForks.toLocaleString()}</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">👁 Views (14d)</div>
+      <div class="kpi-value">${totalViews.toLocaleString()}</div>
+      <div class="kpi-sub">across all repos</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">📥 Clones (14d)</div>
+      <div class="kpi-value">${totalClones.toLocaleString()}</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">📦 Public repos</div>
+      <div class="kpi-value">${repos.length}</div>
+    </div>
+  `;
+}
+
+function renderRepos(repos) {
+  const sorted = [...repos].sort(([, a], [, b]) => b.stars - a.stars);
+  document.getElementById("repo-grid").innerHTML = sorted.map(([fullName, r]) => {
+    const shortName = fullName.split("/")[1];
+    const langColor = LANG_COLORS[r.language] || "#898781";
+    return `
+      <div class="repo-card">
+        <div class="repo-name" title="${fullName}">${shortName}</div>
+        <div class="repo-desc">${r.description || "No description"}</div>
+        <div class="repo-stats">
+          <span class="repo-stat">⭐ ${r.stars}</span>
+          <span class="repo-stat">🍴 ${r.forks}</span>
+          ${r.language ? `<span class="repo-stat"><span class="lang-dot" style="background:${langColor}"></span>${r.language}</span>` : ""}
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+function renderTrend(snapshots, metric) {
+  const labels = snapshots.map(s => s.date);
+
+  const allRepos = new Set();
+  snapshots.forEach(s => Object.keys(s.repos).forEach(r => allRepos.add(r)));
+
+  const topRepos = [...allRepos]
+    .map(name => {
+      const latest = snapshots[snapshots.length - 1].repos[name];
+      return { name, stars: latest ? latest.stars : 0 };
+    })
+    .sort((a, b) => b.stars - a.stars)
+    .slice(0, 5)
+    .map(r => r.name);
+
+  const datasets = topRepos.map((name, i) => ({
+    label: name.split("/")[1],
+    data: snapshots.map(s => s.repos[name]?.[metric] ?? null),
+    borderColor: SERIES_COLORS[i],
+    backgroundColor: SERIES_COLORS[i] + "18",
+    borderWidth: 2,
+    pointRadius: snapshots.length < 10 ? 4 : 2,
+    pointBackgroundColor: SERIES_COLORS[i],
+    tension: 0.3,
+    spanGaps: true,
+  }));
+
+  const legendEl = document.getElementById("chart-legend");
+  legendEl.innerHTML = topRepos.map((name, i) =>
+    `<span class="legend-item"><span class="legend-dot" style="background:${SERIES_COLORS[i]}"></span>${name.split("/")[1]}</span>`
+  ).join("");
+
+  const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const gridColor = isDark ? "rgba(255,255,255,0.07)" : "rgba(11,11,11,0.07)";
+  const textColor = isDark ? "#898781" : "#898781";
+
+  if (trendChart) trendChart.destroy();
+
+  trendChart = new Chart(document.getElementById("trendChart"), {
+    type: "line",
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { mode: "index", intersect: false },
+      },
+      scales: {
+        x: {
+          ticks: { color: textColor, font: { size: 11 }, maxRotation: 45, autoSkip: true, maxTicksLimit: 10 },
+          grid: { color: gridColor },
+        },
+        y: {
+          beginAtZero: true,
+          ticks: { color: textColor, font: { size: 11 } },
+          grid: { color: gridColor },
+        },
+      },
+      interaction: { mode: "nearest", axis: "x", intersect: false },
+    },
+  });
+}
+
+function renderReferrers(repos) {
+  const agg = {};
+  repos.forEach(([, r]) => {
+    (r.top_referrers || []).forEach(({ source, count }) => {
+      agg[source] = (agg[source] || 0) + count;
+    });
+  });
+
+  const sorted = Object.entries(agg).sort(([, a], [, b]) => b - a).slice(0, 8);
+  const max = sorted[0]?.[1] || 1;
+
+  if (!sorted.length) {
+    document.getElementById("referrer-list").innerHTML =
+      `<li style="font-size:13px;color:var(--text-muted);padding:1rem 0;">No referrer data yet — check back after a few days of collection.</li>`;
+    return;
+  }
+
+  document.getElementById("referrer-list").innerHTML = sorted.map(([source, count]) => `
+    <li class="referrer-item">
+      <span style="min-width:130px;font-size:13px;color:var(--text-secondary)">${source}</span>
+      <div class="referrer-bar-wrap">
+        <div class="referrer-bar" style="width:${Math.round(count/max*100)}%"></div>
+      </div>
+      <span class="referrer-count">${count}</span>
+    </li>
+  `).join("");
+}
+
+document.getElementById("metric-tabs").addEventListener("click", e => {
+  if (!e.target.dataset.metric) return;
+  activeMetric = e.target.dataset.metric;
+  document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+  e.target.classList.add("active");
+  if (history) renderTrend(history.snapshots, activeMetric);
+});
+
+load();
+</script>
+</body>
+</html>
