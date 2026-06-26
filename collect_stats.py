@@ -2,7 +2,7 @@ import os, json, datetime, urllib.request, urllib.error
 
 TOKEN = os.environ["GH_TOKEN"]
 USERNAME = os.environ["GH_USERNAME"]
-TODAY = datetime.date.today().isoformat()
+TODAY = (datetime.date.today() - datetime.timedelta(days=1)).isoformat()
 
 # Add repo short names here to exclude them from tracking
 EXCLUDE_REPOS = {
@@ -37,6 +37,8 @@ if not repos:
     print("Could not fetch repos — check token permissions")
     exit(1)
 
+# Replace any existing snapshot for today rather than appending a duplicate
+history["snapshots"] = [s for s in history["snapshots"] if s["date"] != TODAY]
 snapshot = {"date": TODAY, "repos": {}}
 
 for repo in repos:
