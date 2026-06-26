@@ -294,11 +294,12 @@ function renderKPIs(repos, snapshots) {
     <div class="kpi">
       <div class="kpi-label">👁 Views (14d)</div>
       <div class="kpi-value">${totalViews.toLocaleString()}</div>
-      <div class="kpi-sub">across all repos</div>
+      <div class="kpi-sub">${repos.reduce((s, [, r]) => s + (r.unique_visitors_14d || 0), 0).toLocaleString()} unique visitors</div>
     </div>
     <div class="kpi">
       <div class="kpi-label">📥 Clones (14d)</div>
       <div class="kpi-value">${totalClones.toLocaleString()}</div>
+      <div class="kpi-sub">${repos.reduce((s, [, r]) => s + (r.unique_cloners_14d || 0), 0).toLocaleString()} unique cloners</div>
     </div>
     <div class="kpi">
       <div class="kpi-label">📦 Public repos</div>
