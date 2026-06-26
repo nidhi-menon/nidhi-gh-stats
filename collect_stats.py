@@ -6,7 +6,9 @@ TODAY = (datetime.date.today() - datetime.timedelta(days=1)).isoformat()
 
 # Add repo short names here to exclude them from tracking
 EXCLUDE_REPOS = {
-    # "repo-name",
+    "Computer-Vision-Projects",
+    "DataAggregatorProfiler",
+    "Graduate-Research-in-Computer-Vision-and-Deep-Learning",
 }
 
 def gh(path):
