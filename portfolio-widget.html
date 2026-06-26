@@ -308,8 +308,39 @@ function renderKPIs(repos, snapshots) {
   `;
 }
 
+// Set to a list of short repo names to fix display order, e.g. ["HealthSteward", "StackOverflow-Data-Analytics"]
+// Leave empty to sort by stars. Run the widget, drag to your preferred order, click "Copy order" to generate this list.
+const REPO_ORDER = [
+  "HealthSteward",
+  "StackOverflow-Data-Analytics",
+  "PeraNoto-Undergrad-research-project",
+  "nidhi-menon.github.io",
+  "nidhi-gh-stats",
+  "Autodesk-Internship-Project",
+  "Chrysalis-2016-by-Acrotrend-Solutions",
+  "CreativeAI",
+  "Smart-India-Hackathon-2017",
+  "Computer-Vision-Projects",
+  "DataAggregatorProfiler",
+  "Graduate-Research-in-Computer-Vision-and-Deep-Learning",
+  "Meetup.com-Analytics-and-Visualization",
+  "MovieLens-Recommendation-Systems",
+  "Unimate-RecommendationSystem-for-Students"
+];
+
 function renderRepos(repos) {
-  const sorted = [...repos].sort(([, a], [, b]) => b.stars - a.stars);
+  let sorted;
+  if (REPO_ORDER.length) {
+    const index = Object.fromEntries(REPO_ORDER.map((name, i) => [name, i]));
+    sorted = [...repos].sort(([a], [b]) => {
+      const ai = index[a.split("/")[1]] ?? 9999;
+      const bi = index[b.split("/")[1]] ?? 9999;
+      return ai - bi;
+    });
+  } else {
+    sorted = [...repos].sort(([, a], [, b]) => b.stars - a.stars);
+  }
+
   document.getElementById("repo-grid").innerHTML = sorted.map(([fullName, r]) => {
     const shortName = fullName.split("/")[1];
     const langColor = LANG_COLORS[r.language] || "#898781";
