@@ -4,6 +4,11 @@ TOKEN = os.environ["GH_TOKEN"]
 USERNAME = os.environ["GH_USERNAME"]
 TODAY = datetime.date.today().isoformat()
 
+# Add repo short names here to exclude them from tracking
+EXCLUDE_REPOS = {
+    # "repo-name",
+}
+
 def gh(path):
     req = urllib.request.Request(
         f"https://api.github.com{path}",
@@ -35,6 +40,9 @@ if not repos:
 snapshot = {"date": TODAY, "repos": {}}
 
 for repo in repos:
+    if repo["fork"] or repo["archived"] or repo["name"] in EXCLUDE_REPOS:
+        continue
+
     name = repo["full_name"]
     short = repo["name"]
 
