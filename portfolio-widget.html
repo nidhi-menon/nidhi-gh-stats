@@ -192,7 +192,7 @@
 </div>
 
 <div class="section">
-  <h2>Stars over time</h2>
+  <h2 id="chart-heading">Stars over time</h2>
   <div class="tab-row" id="metric-tabs">
     <button class="tab active" data-metric="stars">Stars</button>
     <button class="tab" data-metric="forks">Forks</button>
@@ -327,8 +327,17 @@ function renderRepos(repos) {
   }).join("");
 }
 
+const METRIC_LABELS = {
+  stars: "Stars over time",
+  forks: "Forks over time",
+  views_14d: "Views (14d) over time",
+  clones_14d: "Clones (14d) over time",
+};
+
 function renderTrend(snapshots, metric) {
   const labels = snapshots.map(s => s.date);
+
+  document.getElementById("chart-heading").textContent = METRIC_LABELS[metric] || "Metric over time";
 
   const allRepos = new Set();
   snapshots.forEach(s => Object.keys(s.repos).forEach(r => allRepos.add(r)));
@@ -336,9 +345,9 @@ function renderTrend(snapshots, metric) {
   const topRepos = [...allRepos]
     .map(name => {
       const latest = snapshots[snapshots.length - 1].repos[name];
-      return { name, stars: latest ? latest.stars : 0 };
+      return { name, value: latest ? (latest[metric] || 0) : 0 };
     })
-    .sort((a, b) => b.stars - a.stars)
+    .sort((a, b) => b.value - a.value)
     .slice(0, 5)
     .map(r => r.name);
 
