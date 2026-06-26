@@ -59,17 +59,27 @@ for repo in repos:
     if clones:
         entry["clones_14d"] = clones["count"]
         entry["unique_cloners_14d"] = clones["uniques"]
+        entry["clones_daily"] = [
+            {"date": c["timestamp"][:10], "count": c["count"], "uniques": c["uniques"]}
+            for c in clones.get("clones", [])
+        ]
     else:
         entry["clones_14d"] = None
         entry["unique_cloners_14d"] = None
+        entry["clones_daily"] = []
 
     views = gh(f"/repos/{name}/traffic/views")
     if views:
         entry["views_14d"] = views["count"]
         entry["unique_visitors_14d"] = views["uniques"]
+        entry["views_daily"] = [
+            {"date": v["timestamp"][:10], "count": v["count"], "uniques": v["uniques"]}
+            for v in views.get("views", [])
+        ]
     else:
         entry["views_14d"] = None
         entry["unique_visitors_14d"] = None
+        entry["views_daily"] = []
 
     referrers = gh(f"/repos/{name}/traffic/popular/referrers")
     if referrers:

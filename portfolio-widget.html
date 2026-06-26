@@ -369,9 +369,34 @@ const METRIC_LABELS = {
   clones_14d: "Clones (14d) over time",
 };
 
-function renderTrend(snapshots, metric) {
-  const labels = snapshots.map(s => s.date);
+// For views/clones, build a flat daily series from views_daily/clones_daily across all snapshots.
+// For stars/forks, use snapshot-level totals (one point per nightly run).
+function buildChartData(snapshots, metric) {
+  const dailyKey = metric === "views_14d" ? "views_daily" : metric === "clones_14d" ? "clones_daily" : null;
 
+  if (dailyKey) {
+    // Collect all dates across all snapshots, deduplicated and sorted
+    const dateMap = {}; // date -> { repoName -> count }
+    snapshots.forEach(s => {
+      Object.entries(s.repos).forEach(([name, r]) => {
+        (r[dailyKey] || []).forEach(({ date, count }) => {
+          if (!dateMap[date]) dateMap[date] = {};
+          dateMap[date][name] = (dateMap[date][name] || 0) + count;
+        });
+      });
+    });
+    const labels = Object.keys(dateMap).sort();
+    return { labels, getValue: (name, date) => dateMap[date]?.[name] ?? null };
+  } else {
+    const labels = snapshots.map(s => s.date);
+    return { labels, getValue: (name, date) => {
+      const s = snapshots.find(s => s.date === date);
+      return s?.repos[name]?.[metric] ?? null;
+    }};
+  }
+}
+
+function renderTrend(snapshots, metric) {
   document.getElementById("chart-heading").textContent = METRIC_LABELS[metric] || "Metric over time";
 
   const allRepos = new Set();
@@ -386,13 +411,15 @@ function renderTrend(snapshots, metric) {
     .slice(0, 5)
     .map(r => r.name);
 
+  const { labels, getValue } = buildChartData(snapshots, metric);
+
   const datasets = topRepos.map((name, i) => ({
     label: name.split("/")[1],
-    data: snapshots.map(s => s.repos[name]?.[metric] ?? null),
+    data: labels.map(date => getValue(name, date)),
     borderColor: SERIES_COLORS[i],
     backgroundColor: SERIES_COLORS[i] + "18",
     borderWidth: 2,
-    pointRadius: snapshots.length < 10 ? 4 : 2,
+    pointRadius: labels.length < 10 ? 4 : 2,
     pointBackgroundColor: SERIES_COLORS[i],
     tension: 0.3,
     spanGaps: true,
