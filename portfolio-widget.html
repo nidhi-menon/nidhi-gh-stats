@@ -180,6 +180,7 @@
   .tab:hover:not(.active) { background: var(--bg); }
 
   .updated { font-size: 11px; color: var(--text-muted); text-align: right; margin-top: 1.5rem; }
+  .note { font-size: 11px; color: var(--text-muted); margin-top: 0.75rem; }
 </style>
 </head>
 <body>
@@ -203,6 +204,7 @@
   <div class="chart-wrap" style="height: 240px;">
     <canvas id="trendChart" role="img" aria-label="Line chart showing repo metrics over time">Loading chart data…</canvas>
   </div>
+  <p class="note">Showing top 5 repos by selected metric. Views and clones reflect a rolling 14-day window.</p>
 </div>
 
 <div class="section">
@@ -210,6 +212,7 @@
   <div class="repo-grid" id="repo-grid">
     <div class="loading">Loading repos…</div>
   </div>
+  <p class="note">Excludes forked and archived repos.</p>
 </div>
 
 <div class="section">
@@ -217,6 +220,7 @@
   <ul class="referrer-list" id="referrer-list">
     <div class="loading">Loading referrers…</div>
   </ul>
+  <p class="note">Aggregated across all repos. Updates nightly.</p>
 </div>
 
 <p class="updated" id="updated-note"></p>
