@@ -17,28 +17,81 @@
           "clones_14d": 12,
           "unique_cloners_14d": 11,
           "clones_daily": [
-            {"date": "2026-06-16", "count": 4, "uniques": 4},
-            {"date": "2026-06-18", "count": 5, "uniques": 5},
-            {"date": "2026-06-20", "count": 1, "uniques": 1},
-            {"date": "2026-06-24", "count": 2, "uniques": 1}
+            {
+              "date": "2026-06-16",
+              "count": 4,
+              "uniques": 4
+            },
+            {
+              "date": "2026-06-18",
+              "count": 5,
+              "uniques": 5
+            },
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-24",
+              "count": 2,
+              "uniques": 1
+            }
           ],
           "views_14d": 19,
           "unique_visitors_14d": 2,
           "views_daily": [
-            {"date": "2026-06-17", "count": 2, "uniques": 0},
-            {"date": "2026-06-18", "count": 8, "uniques": 1},
-            {"date": "2026-06-19", "count": 1, "uniques": 0},
-            {"date": "2026-06-22", "count": 7, "uniques": 1},
-            {"date": "2026-06-24", "count": 1, "uniques": 0}
+            {
+              "date": "2026-06-17",
+              "count": 2,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 8,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-19",
+              "count": 1,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 7,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-24",
+              "count": 1,
+              "uniques": 0
+            }
           ],
           "top_referrers": [
-            {"source": "github.com", "count": 7, "uniques": 1},
-            {"source": "nidhi-menon.github.io", "count": 3, "uniques": 2}
+            {
+              "source": "github.com",
+              "count": 7,
+              "uniques": 1
+            },
+            {
+              "source": "nidhi-menon.github.io",
+              "count": 3,
+              "uniques": 2
+            }
           ],
           "popular_paths": [
-            {"path": "/nidhi-menon/HealthSteward", "count": 11},
-            {"path": "/nidhi-menon/HealthSteward/graphs/traffic", "count": 2},
-            {"path": "/nidhi-menon/HealthSteward/commits/main", "count": 1}
+            {
+              "path": "/nidhi-menon/HealthSteward",
+              "count": 11
+            },
+            {
+              "path": "/nidhi-menon/HealthSteward/graphs/traffic",
+              "count": 2
+            },
+            {
+              "path": "/nidhi-menon/HealthSteward/commits/main",
+              "count": 1
+            }
           ],
           "release_downloads": 0,
           "release_count": 0
@@ -53,22 +106,51 @@
           "clones_14d": 3,
           "unique_cloners_14d": 3,
           "clones_daily": [
-            {"date": "2026-06-12", "count": 1, "uniques": 1},
-            {"date": "2026-06-22", "count": 1, "uniques": 1},
-            {"date": "2026-06-25", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-12",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-22",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-25",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 3,
           "unique_visitors_14d": 1,
           "views_daily": [
-            {"date": "2026-06-22", "count": 3, "uniques": 1}
+            {
+              "date": "2026-06-22",
+              "count": 3,
+              "uniques": 1
+            }
           ],
           "top_referrers": [
-            {"source": "github.com", "count": 1, "uniques": 1}
+            {
+              "source": "github.com",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "popular_paths": [
-            {"path": "/nidhi-menon/StackOverflow-Data-Analytics", "count": 1},
-            {"path": "/nidhi-menon/StackOverflow-Data-Analytics/graphs/traffic", "count": 1},
-            {"path": "/nidhi-menon/StackOverflow-Data-Analytics/pulse", "count": 1}
+            {
+              "path": "/nidhi-menon/StackOverflow-Data-Analytics",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/StackOverflow-Data-Analytics/graphs/traffic",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/StackOverflow-Data-Analytics/pulse",
+              "count": 1
+            }
           ],
           "release_downloads": 0,
           "release_count": 0
@@ -83,21 +165,46 @@
           "clones_14d": 2,
           "unique_cloners_14d": 2,
           "clones_daily": [
-            {"date": "2026-06-19", "count": 1, "uniques": 1},
-            {"date": "2026-06-21", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-19",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-21",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 3,
           "unique_visitors_14d": 1,
           "views_daily": [
-            {"date": "2026-06-22", "count": 3, "uniques": 1}
+            {
+              "date": "2026-06-22",
+              "count": 3,
+              "uniques": 1
+            }
           ],
           "top_referrers": [
-            {"source": "github.com", "count": 1, "uniques": 1}
+            {
+              "source": "github.com",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "popular_paths": [
-            {"path": "/nidhi-menon/PeraNoto-Undergrad-research-project", "count": 1},
-            {"path": "/nidhi-menon/PeraNoto-Undergrad-research-project/graphs/traffic", "count": 1},
-            {"path": "/nidhi-menon/PeraNoto-Undergrad-research-project/pulse", "count": 1}
+            {
+              "path": "/nidhi-menon/PeraNoto-Undergrad-research-project",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/PeraNoto-Undergrad-research-project/graphs/traffic",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/PeraNoto-Undergrad-research-project/pulse",
+              "count": 1
+            }
           ],
           "release_downloads": 0,
           "release_count": 0
@@ -112,23 +219,56 @@
           "clones_14d": 18,
           "unique_cloners_14d": 14,
           "clones_daily": [
-            {"date": "2026-06-16", "count": 2, "uniques": 1},
-            {"date": "2026-06-18", "count": 14, "uniques": 10},
-            {"date": "2026-06-22", "count": 1, "uniques": 1},
-            {"date": "2026-06-23", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-16",
+              "count": 2,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-18",
+              "count": 14,
+              "uniques": 10
+            },
+            {
+              "date": "2026-06-22",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-23",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 4,
           "unique_visitors_14d": 1,
           "views_daily": [
-            {"date": "2026-06-22", "count": 4, "uniques": 1}
+            {
+              "date": "2026-06-22",
+              "count": 4,
+              "uniques": 1
+            }
           ],
           "top_referrers": [
-            {"source": "github.com", "count": 1, "uniques": 1}
+            {
+              "source": "github.com",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "popular_paths": [
-            {"path": "/nidhi-menon/nidhi-menon.github.io/graphs/traffic", "count": 2},
-            {"path": "/nidhi-menon/nidhi-menon.github.io", "count": 1},
-            {"path": "/nidhi-menon/nidhi-menon.github.io/pulse", "count": 1}
+            {
+              "path": "/nidhi-menon/nidhi-menon.github.io/graphs/traffic",
+              "count": 2
+            },
+            {
+              "path": "/nidhi-menon/nidhi-menon.github.io",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/nidhi-menon.github.io/pulse",
+              "count": 1
+            }
           ],
           "release_downloads": 0,
           "release_count": 0
@@ -161,16 +301,27 @@
           "clones_14d": 1,
           "unique_cloners_14d": 1,
           "clones_daily": [
-            {"date": "2026-06-20", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 1,
           "unique_visitors_14d": 1,
           "views_daily": [
-            {"date": "2026-06-20", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "top_referrers": [],
           "popular_paths": [
-            {"path": "/nidhi-menon/Autodesk-Internship-Project/pulls", "count": 1}
+            {
+              "path": "/nidhi-menon/Autodesk-Internship-Project/pulls",
+              "count": 1
+            }
           ],
           "release_downloads": 0,
           "release_count": 0
@@ -185,8 +336,16 @@
           "clones_14d": 2,
           "unique_cloners_14d": 2,
           "clones_daily": [
-            {"date": "2026-06-20", "count": 1, "uniques": 1},
-            {"date": "2026-06-21", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-21",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 0,
           "unique_visitors_14d": 0,
@@ -206,8 +365,16 @@
           "clones_14d": 2,
           "unique_cloners_14d": 2,
           "clones_daily": [
-            {"date": "2026-06-17", "count": 1, "uniques": 1},
-            {"date": "2026-06-20", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-17",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 0,
           "unique_visitors_14d": 0,
@@ -227,7 +394,11 @@
           "clones_14d": 1,
           "unique_cloners_14d": 1,
           "clones_daily": [
-            {"date": "2026-06-20", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 0,
           "unique_visitors_14d": 0,
@@ -247,20 +418,41 @@
           "clones_14d": 1,
           "unique_cloners_14d": 1,
           "clones_daily": [
-            {"date": "2026-06-21", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-21",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 3,
           "unique_visitors_14d": 1,
           "views_daily": [
-            {"date": "2026-06-22", "count": 3, "uniques": 1}
+            {
+              "date": "2026-06-22",
+              "count": 3,
+              "uniques": 1
+            }
           ],
           "top_referrers": [
-            {"source": "github.com", "count": 1, "uniques": 1}
+            {
+              "source": "github.com",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "popular_paths": [
-            {"path": "/nidhi-menon/Computer-Vision-Projects", "count": 1},
-            {"path": "/nidhi-menon/Computer-Vision-Projects/graphs/traffic", "count": 1},
-            {"path": "/nidhi-menon/Computer-Vision-Projects/pulse", "count": 1}
+            {
+              "path": "/nidhi-menon/Computer-Vision-Projects",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Computer-Vision-Projects/graphs/traffic",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Computer-Vision-Projects/pulse",
+              "count": 1
+            }
           ],
           "release_downloads": 0,
           "release_count": 0
@@ -275,8 +467,16 @@
           "clones_14d": 2,
           "unique_cloners_14d": 2,
           "clones_daily": [
-            {"date": "2026-06-18", "count": 1, "uniques": 1},
-            {"date": "2026-06-20", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-18",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 0,
           "unique_visitors_14d": 0,
@@ -296,8 +496,16 @@
           "clones_14d": 2,
           "unique_cloners_14d": 2,
           "clones_daily": [
-            {"date": "2026-06-13", "count": 1, "uniques": 1},
-            {"date": "2026-06-20", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-13",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 0,
           "unique_visitors_14d": 0,
@@ -317,7 +525,11 @@
           "clones_14d": 1,
           "unique_cloners_14d": 1,
           "clones_daily": [
-            {"date": "2026-06-21", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-21",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 0,
           "unique_visitors_14d": 0,
@@ -337,19 +549,37 @@
           "clones_14d": 1,
           "unique_cloners_14d": 1,
           "clones_daily": [
-            {"date": "2026-06-19", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-19",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 7,
           "unique_visitors_14d": 1,
           "views_daily": [
-            {"date": "2026-06-22", "count": 7, "uniques": 1}
+            {
+              "date": "2026-06-22",
+              "count": 7,
+              "uniques": 1
+            }
           ],
           "top_referrers": [
-            {"source": "github.com", "count": 1, "uniques": 1}
+            {
+              "source": "github.com",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "popular_paths": [
-            {"path": "/nidhi-menon/MovieLens-Recommendation-Systems/graphs/traffic", "count": 2},
-            {"path": "/nidhi-menon/MovieLens-Recommendation-Systems", "count": 1}
+            {
+              "path": "/nidhi-menon/MovieLens-Recommendation-Systems/graphs/traffic",
+              "count": 2
+            },
+            {
+              "path": "/nidhi-menon/MovieLens-Recommendation-Systems",
+              "count": 1
+            }
           ],
           "release_downloads": 0,
           "release_count": 0
@@ -364,14 +594,2686 @@
           "clones_14d": 2,
           "unique_cloners_14d": 2,
           "clones_daily": [
-            {"date": "2026-06-17", "count": 1, "uniques": 1},
-            {"date": "2026-06-20", "count": 1, "uniques": 1}
+            {
+              "date": "2026-06-17",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            }
           ],
           "views_14d": 0,
           "unique_visitors_14d": 0,
           "views_daily": [],
           "top_referrers": [],
           "popular_paths": [],
+          "release_downloads": 0,
+          "release_count": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "repos": {
+        "nidhi-menon/Autodesk-Internship-Project": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": null,
+          "description": "Presentation of Internship Project at Autodesk as part of Agile Practice team in Summer 2018",
+          "clones_14d": 1,
+          "unique_cloners_14d": 1,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 4,
+          "unique_visitors_14d": 2,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 3,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [
+            {
+              "source": "github.com",
+              "count": 1,
+              "uniques": 1
+            }
+          ],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/Autodesk-Internship-Project",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Autodesk-Internship-Project/graphs/traffic",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Autodesk-Internship-Project/pulls",
+              "count": 1
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/Chrysalis-2016-by-Acrotrend-Solutions": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "R",
+          "description": "Project completed for Chrysalis-The Data Quest, a data science challenge by Acrotrend Solutions in 2016",
+          "clones_14d": 2,
+          "unique_cloners_14d": 2,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-21",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 3,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 3,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/Chrysalis-2016-by-Acrotrend-Solutions",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Chrysalis-2016-by-Acrotrend-Solutions/graphs/traffic",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Chrysalis-2016-by-Acrotrend-Solutions/pulse",
+              "count": 1
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/Computer-Vision-Projects": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "HTML",
+          "description": null,
+          "clones_14d": 1,
+          "unique_cloners_14d": 1,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 7,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 3,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 4,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [
+            {
+              "source": "github.com",
+              "count": 2,
+              "uniques": 1
+            }
+          ],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/Computer-Vision-Projects",
+              "count": 3
+            },
+            {
+              "path": "/nidhi-menon/Computer-Vision-Projects/graphs/traffic",
+              "count": 2
+            },
+            {
+              "path": "/nidhi-menon/Computer-Vision-Projects/pulse",
+              "count": 2
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/CreativeAI": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "Jupyter Notebook",
+          "description": null,
+          "clones_14d": 2,
+          "unique_cloners_14d": 2,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 3,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 3,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/CreativeAI",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/CreativeAI/graphs/traffic",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/CreativeAI/pulse",
+              "count": 1
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/DataAggregatorProfiler": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "C++",
+          "description": "Course project as part of CS 8803 (Data Analytics using Deep Learning) at GeorgiaTech under Dr. Joy Arulraj in Fall 2018",
+          "clones_14d": 2,
+          "unique_cloners_14d": 2,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 3,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 3,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/DataAggregatorProfiler",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/DataAggregatorProfiler/graphs/traffic",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/DataAggregatorProfiler/pulse",
+              "count": 1
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/Graduate-Research-in-Computer-Vision-and-Deep-Learning": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "Jupyter Notebook",
+          "description": "Project completed as a graduate research student under Dr. Dobromir Rahnev at GaTech in Spring 2018",
+          "clones_14d": 2,
+          "unique_cloners_14d": 2,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 3,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 3,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/Graduate-Research-in-Computer-Vision-and-Deep-Learning",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Graduate-Research-in-Computer-Vision-and-Deep-Learning/graphs/traffic",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Graduate-Research-in-Computer-Vision-and-Deep-Learning/pulse",
+              "count": 1
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/HealthSteward": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "Python",
+          "description": "HealthSteward is a privacy-first AI agent that centralizes your health across multiple doctors, autonomously generates personalized visit prep, tracks medications and tests, and coordinates care - all locally on your machine without exposing data to the cloud.",
+          "clones_14d": 12,
+          "unique_cloners_14d": 11,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 4,
+              "uniques": 4
+            },
+            {
+              "date": "2026-06-18",
+              "count": 5,
+              "uniques": 5
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 2,
+              "uniques": 2
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 36,
+          "unique_visitors_14d": 2,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 8,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-18",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 7,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 3,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-26",
+              "count": 17,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [
+            {
+              "source": "github.com",
+              "count": 13,
+              "uniques": 1
+            },
+            {
+              "source": "nidhi-menon.github.io",
+              "count": 3,
+              "uniques": 2
+            }
+          ],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/HealthSteward",
+              "count": 18
+            },
+            {
+              "path": "/nidhi-menon/HealthSteward/graphs/traffic",
+              "count": 7
+            },
+            {
+              "path": "/nidhi-menon/HealthSteward/pulse",
+              "count": 6
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/Meetup.com-Analytics-and-Visualization": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": null,
+          "description": "Course project as part of CS 8803 - DV at GeorgiaTech under Dr. Rahul Basole in Spring 2018",
+          "clones_14d": 1,
+          "unique_cloners_14d": 1,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 3,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 3,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/Meetup.com-Analytics-and-Visualization",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Meetup.com-Analytics-and-Visualization/graphs/traffic",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Meetup.com-Analytics-and-Visualization/pulse",
+              "count": 1
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/MovieLens-Recommendation-Systems": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 8,
+          "language": "Jupyter Notebook",
+          "description": "Course project as part of CS 6220 at GeorgiaTech under Dr. Ling Liu in Fall 2018",
+          "clones_14d": 1,
+          "unique_cloners_14d": 1,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 11,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 7,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 4,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [
+            {
+              "source": "github.com",
+              "count": 2,
+              "uniques": 1
+            }
+          ],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/MovieLens-Recommendation-Systems",
+              "count": 3
+            },
+            {
+              "path": "/nidhi-menon/MovieLens-Recommendation-Systems/graphs/traffic",
+              "count": 3
+            },
+            {
+              "path": "/nidhi-menon/MovieLens-Recommendation-Systems/pulse",
+              "count": 2
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/nidhi-gh-stats": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "HTML",
+          "description": null,
+          "clones_14d": 194,
+          "unique_cloners_14d": 83,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 194,
+              "uniques": 83
+            }
+          ],
+          "views_14d": 35,
+          "unique_visitors_14d": 2,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 35,
+              "uniques": 2
+            }
+          ],
+          "top_referrers": [
+            {
+              "source": "github.com",
+              "count": 14,
+              "uniques": 1
+            }
+          ],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/nidhi-gh-stats",
+              "count": 10
+            },
+            {
+              "path": "/nidhi-menon/nidhi-gh-stats/actions/workflows/collect-stats.yml",
+              "count": 7
+            },
+            {
+              "path": "/nidhi-menon/nidhi-gh-stats/actions",
+              "count": 6
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/nidhi-menon.github.io": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "HTML",
+          "description": "Personal Website",
+          "clones_14d": 88,
+          "unique_cloners_14d": 44,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-18",
+              "count": 14,
+              "uniques": 10
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-23",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-24",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 70,
+              "uniques": 33
+            }
+          ],
+          "views_14d": 18,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 4,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 14,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [
+            {
+              "source": "github.com",
+              "count": 12,
+              "uniques": 1
+            }
+          ],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/nidhi-menon.github.io",
+              "count": 9
+            },
+            {
+              "path": "/nidhi-menon/nidhi-menon.github.io/actions",
+              "count": 4
+            },
+            {
+              "path": "/nidhi-menon/nidhi-menon.github.io/graphs/traffic",
+              "count": 3
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/PeraNoto-Undergrad-research-project": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "MATLAB",
+          "description": "Undergrad research project in the domain of ML, using genetic algorithm to generate layouts for furniture placement ",
+          "clones_14d": 2,
+          "unique_cloners_14d": 2,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 6,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 3,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 3,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [
+            {
+              "source": "github.com",
+              "count": 2,
+              "uniques": 1
+            }
+          ],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/PeraNoto-Undergrad-research-project",
+              "count": 2
+            },
+            {
+              "path": "/nidhi-menon/PeraNoto-Undergrad-research-project/graphs/traffic",
+              "count": 2
+            },
+            {
+              "path": "/nidhi-menon/PeraNoto-Undergrad-research-project/pulse",
+              "count": 2
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/Smart-India-Hackathon-2017": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "PHP",
+          "description": "Project completed for NCPCR department within Govt. of India as part of Smart India Hackathon 2017, an initiative by Narendra Modi",
+          "clones_14d": 1,
+          "unique_cloners_14d": 1,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 3,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 3,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/Smart-India-Hackathon-2017",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Smart-India-Hackathon-2017/graphs/traffic",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Smart-India-Hackathon-2017/pulse",
+              "count": 1
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/StackOverflow-Data-Analytics": {
+          "stars": 2,
+          "forks": 0,
+          "watchers": 2,
+          "open_issues": 0,
+          "language": "Python",
+          "description": "Course project as part of CSE 6242 at GeorgiaTech under Dr. Duen Horng (Polo) Chau in Fall 2017",
+          "clones_14d": 2,
+          "unique_cloners_14d": 2,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 10,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 3,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 7,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [
+            {
+              "source": "github.com",
+              "count": 3,
+              "uniques": 1
+            },
+            {
+              "source": "nidhi-menon.github.io",
+              "count": 1,
+              "uniques": 1
+            }
+          ],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/StackOverflow-Data-Analytics",
+              "count": 4
+            },
+            {
+              "path": "/nidhi-menon/StackOverflow-Data-Analytics/graphs/traffic",
+              "count": 3
+            },
+            {
+              "path": "/nidhi-menon/StackOverflow-Data-Analytics/pulse",
+              "count": 3
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/Unimate-RecommendationSystem-for-Students": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": null,
+          "description": "Course project as part of CS 6235 at GeorgiaTech under Dr. Calton Pu in Fall 2017",
+          "clones_14d": 2,
+          "unique_cloners_14d": 2,
+          "clones_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 3,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-06-13",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-14",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-15",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-16",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-17",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-18",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-19",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-20",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-21",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-22",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-06-26",
+              "count": 3,
+              "uniques": 1
+            }
+          ],
+          "top_referrers": [
+            {
+              "source": "github.com",
+              "count": 1,
+              "uniques": 1
+            }
+          ],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/Unimate-RecommendationSystem-for-Students",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Unimate-RecommendationSystem-for-Students/graphs/traffic",
+              "count": 1
+            },
+            {
+              "path": "/nidhi-menon/Unimate-RecommendationSystem-for-Students/pulse",
+              "count": 1
+            }
+          ],
           "release_downloads": 0,
           "release_count": 0
         }
