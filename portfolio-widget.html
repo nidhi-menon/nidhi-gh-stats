@@ -237,7 +237,9 @@
   <h2 id="chart-heading">Clones (14d) over time</h2>
   <div class="tab-row" id="metric-tabs">
     <button class="tab active" data-metric="clones_14d">Clones (14d)</button>
+    <button class="tab" data-metric="unique_cloners_14d">Unique cloners (14d)</button>
     <button class="tab" data-metric="views_14d">Views (14d)</button>
+    <button class="tab" data-metric="unique_visitors_14d">Unique visitors (14d)</button>
     <button class="tab" data-metric="stars">Stars</button>
     <button class="tab" data-metric="forks">Forks</button>
   </div>
@@ -409,21 +411,31 @@ const METRIC_LABELS = {
   forks: "Forks over time",
   views_14d: "Views (14d) over time",
   clones_14d: "Clones (14d) over time",
+  unique_visitors_14d: "Unique visitors (14d) over time",
+  unique_cloners_14d: "Unique cloners (14d) over time",
 };
 
-// For views/clones, build a flat daily series from views_daily/clones_daily across all snapshots.
+// Maps metrics backed by a daily breakdown to the array + field holding their per-day value.
+const DAILY_METRIC_SOURCE = {
+  views_14d: { dailyKey: "views_daily", field: "count" },
+  clones_14d: { dailyKey: "clones_daily", field: "count" },
+  unique_visitors_14d: { dailyKey: "views_daily", field: "uniques" },
+  unique_cloners_14d: { dailyKey: "clones_daily", field: "uniques" },
+};
+
+// For views/clones/uniques, build a flat daily series from views_daily/clones_daily across all snapshots.
 // For stars/forks, use snapshot-level totals (one point per nightly run).
 function buildChartData(snapshots, metric) {
-  const dailyKey = metric === "views_14d" ? "views_daily" : metric === "clones_14d" ? "clones_daily" : null;
+  const source = DAILY_METRIC_SOURCE[metric];
 
-  if (dailyKey) {
+  if (source) {
     // Collect all dates across all snapshots, deduplicated and sorted
-    const dateMap = {}; // date -> { repoName -> count }
+    const dateMap = {}; // date -> { repoName -> value }
     snapshots.forEach(s => {
       Object.entries(s.repos).forEach(([name, r]) => {
-        (r[dailyKey] || []).forEach(({ date, count }) => {
-          if (!dateMap[date]) dateMap[date] = {};
-          dateMap[date][name] = count;
+        (r[source.dailyKey] || []).forEach(entry => {
+          if (!dateMap[entry.date]) dateMap[entry.date] = {};
+          dateMap[entry.date][name] = entry[source.field];
         });
       });
     });
@@ -520,6 +532,8 @@ const METRIC_COL_LABEL = {
   forks: "Forks",
   views_14d: "Views (14d)",
   clones_14d: "Clones (14d)",
+  unique_visitors_14d: "Unique visitors (14d)",
+  unique_cloners_14d: "Unique cloners (14d)",
 };
 
 function renderAllRepos(repos, metric) {
