@@ -3,55 +3,55 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>GitHub Impact</title>
+<title>GitHub Impact — Nidhi Menon</title>
+<link rel="icon" type="image/x-icon" href="https://nidhi-menon.github.io/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <style>
   :root {
-    --bg: #f9f8f6;
+    --bg: #fafafa;
     --surface: #ffffff;
-    --border: rgba(11,11,11,0.10);
-    --border-strong: rgba(11,11,11,0.18);
-    --text-primary: #0b0b0b;
-    --text-secondary: #52514e;
-    --text-muted: #898781;
-    --accent: #2a78d6;
-    --accent-bg: #e6f1fb;
-    --radius: 8px;
-    --series-1: #2a78d6;
+    --border: #e0e0e0;
+    --border-strong: rgba(45,45,45,0.22);
+    --text-primary: #2d2d2d;
+    --text-secondary: #4a4a4a;
+    --text-muted: #6b6b6b;
+    --accent: #3d7c8a;
+    --accent-hover: #2e6270;
+    --accent-bg: #e9f2f3;
+    --radius: 12px;
+    --series-1: #3d7c8a;
     --series-2: #1baf7a;
     --series-3: #eda100;
     --series-4: #4a3aa7;
   }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #111110;
-      --surface: #1a1a19;
-      --border: rgba(255,255,255,0.10);
-      --border-strong: rgba(255,255,255,0.18);
-      --text-primary: #ffffff;
-      --text-secondary: #c3c2b7;
-      --text-muted: #898781;
-      --accent: #3987e5;
-      --accent-bg: #0c447c22;
-      --series-1: #3987e5;
-      --series-2: #199e70;
-      --series-3: #c98500;
-      --series-4: #9085e9;
-    }
-  }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     background: var(--bg);
     color: var(--text-primary);
     font-size: 15px;
-    line-height: 1.5;
-    padding: 2rem 1.5rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    padding: 2.5rem 1.5rem 4rem;
     max-width: 900px;
     margin: 0 auto;
   }
-  h1 { font-size: 22px; font-weight: 500; margin-bottom: 0.25rem; }
-  h2 { font-size: 16px; font-weight: 500; margin-bottom: 1rem; color: var(--text-primary); }
+  a { color: var(--accent); }
+  a:hover { color: var(--accent-hover); }
+  .back-link {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+  }
+  .back-link:hover { color: var(--accent); }
+  h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.4rem; }
+  h2 { font-size: 16px; font-weight: 600; margin-bottom: 1rem; color: var(--text-primary); }
   .subtitle { font-size: 13px; color: var(--text-muted); margin-bottom: 2rem; }
 
   .kpi-row {
@@ -62,10 +62,12 @@
   }
   .kpi {
     background: var(--surface);
-    border: 0.5px solid var(--border);
+    border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 1rem;
+    transition: box-shadow 0.3s ease;
   }
+  .kpi:hover { box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); }
   .kpi-label {
     font-size: 12px;
     color: var(--text-muted);
@@ -90,8 +92,8 @@
 
   .section {
     background: var(--surface);
-    border: 0.5px solid var(--border);
-    border-radius: 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
     padding: 1.25rem 1.5rem;
     margin-bottom: 1.25rem;
   }
@@ -103,10 +105,12 @@
     gap: 10px;
   }
   .repo-card {
-    border: 0.5px solid var(--border);
+    border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 0.875rem 1rem;
+    transition: box-shadow 0.3s ease;
   }
+  .repo-card:hover { box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); }
   .repo-name {
     display: block;
     font-size: 13px;
@@ -220,6 +224,7 @@
 </head>
 <body>
 
+<a class="back-link" href="https://nidhi-menon.github.io/github-stats.html">&larr; Back to nidhi-menon.github.io</a>
 <h1>Open source impact</h1>
 <p class="subtitle" id="last-updated">Loading…</p>
 <p class="note">Tracks public repos. Excludes forks, archived repos, and any manually excluded repos.</p>
@@ -266,7 +271,7 @@
 <script>
 const STATS_URL = "https://raw.githubusercontent.com/nidhi-menon/nidhi-gh-stats/main/metrics-history.json";
 
-const SERIES_COLORS = ["#2a78d6","#1baf7a","#eda100","#4a3aa7","#e34948","#e87ba4"];
+const SERIES_COLORS = ["#3d7c8a","#1baf7a","#eda100","#4a3aa7","#e34948","#e87ba4"];
 
 // Short repo names to hide from the widget without removing from collection.
 const WIDGET_EXCLUDE = new Set([
@@ -469,9 +474,8 @@ function renderTrend(snapshots, metric) {
     `<span class="legend-item" data-index="${i}"><span class="legend-dot" style="background:${SERIES_COLORS[i]}"></span>${name.split("/")[1]}</span>`
   ).join("");
 
-  const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const gridColor = isDark ? "rgba(255,255,255,0.07)" : "rgba(11,11,11,0.07)";
-  const textColor = "#898781";
+  const gridColor = "rgba(45,45,45,0.07)";
+  const textColor = "#6b6b6b";
 
   if (trendChart) trendChart.destroy();
 
