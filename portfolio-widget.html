@@ -423,7 +423,7 @@ function buildChartData(snapshots, metric) {
       Object.entries(s.repos).forEach(([name, r]) => {
         (r[dailyKey] || []).forEach(({ date, count }) => {
           if (!dateMap[date]) dateMap[date] = {};
-          dateMap[date][name] = (dateMap[date][name] || 0) + count;
+          dateMap[date][name] = count;
         });
       });
     });
