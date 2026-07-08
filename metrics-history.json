@@ -28499,11 +28499,6 @@
           "unique_cloners_14d": 0,
           "clones_daily": [
             {
-              "date": "2026-06-23",
-              "count": 0,
-              "uniques": 0
-            },
-            {
               "date": "2026-06-24",
               "count": 0,
               "uniques": 0
@@ -28567,16 +28562,16 @@
               "date": "2026-07-06",
               "count": 0,
               "uniques": 0
+            },
+            {
+              "date": "2026-07-07",
+              "count": 0,
+              "uniques": 0
             }
           ],
-          "views_14d": 7,
+          "views_14d": 4,
           "unique_visitors_14d": 1,
           "views_daily": [
-            {
-              "date": "2026-06-23",
-              "count": 3,
-              "uniques": 1
-            },
             {
               "date": "2026-06-24",
               "count": 0,
@@ -28641,27 +28636,32 @@
               "date": "2026-07-06",
               "count": 0,
               "uniques": 0
+            },
+            {
+              "date": "2026-07-07",
+              "count": 0,
+              "uniques": 0
             }
           ],
           "top_referrers": [
             {
               "source": "github.com",
-              "count": 2,
+              "count": 1,
               "uniques": 1
             }
           ],
           "popular_paths": [
             {
               "path": "/nidhi-menon/Computer-Vision-Projects",
-              "count": 3
+              "count": 2
             },
             {
               "path": "/nidhi-menon/Computer-Vision-Projects/graphs/traffic",
-              "count": 2
+              "count": 1
             },
             {
               "path": "/nidhi-menon/Computer-Vision-Projects/pulse",
-              "count": 2
+              "count": 1
             }
           ],
           "release_downloads": 0,
@@ -29202,7 +29202,7 @@
           "stars": 0,
           "forks": 0,
           "watchers": 0,
-          "open_issues": 5,
+          "open_issues": 6,
           "language": "Python",
           "description": "Privacy-first local AI agent for managing fragmented care across multiple providers. No cloud storage. No sync.",
           "clones_14d": 323,
@@ -30118,11 +30118,6 @@
           "unique_cloners_14d": 0,
           "clones_daily": [
             {
-              "date": "2026-06-23",
-              "count": 0,
-              "uniques": 0
-            },
-            {
               "date": "2026-06-24",
               "count": 0,
               "uniques": 0
@@ -30186,16 +30181,16 @@
               "date": "2026-07-06",
               "count": 0,
               "uniques": 0
+            },
+            {
+              "date": "2026-07-07",
+              "count": 0,
+              "uniques": 0
             }
           ],
-          "views_14d": 9,
+          "views_14d": 6,
           "unique_visitors_14d": 1,
           "views_daily": [
-            {
-              "date": "2026-06-23",
-              "count": 3,
-              "uniques": 1
-            },
             {
               "date": "2026-06-24",
               "count": 0,
@@ -30260,27 +30255,32 @@
               "date": "2026-07-06",
               "count": 0,
               "uniques": 0
+            },
+            {
+              "date": "2026-07-07",
+              "count": 0,
+              "uniques": 0
             }
           ],
           "top_referrers": [
             {
               "source": "github.com",
-              "count": 5,
+              "count": 4,
               "uniques": 1
             }
           ],
           "popular_paths": [
             {
               "path": "/nidhi-menon/PeraNoto-Undergrad-research-project",
-              "count": 5
+              "count": 4
             },
             {
               "path": "/nidhi-menon/PeraNoto-Undergrad-research-project/graphs/traffic",
-              "count": 2
+              "count": 1
             },
             {
               "path": "/nidhi-menon/PeraNoto-Undergrad-research-project/pulse",
-              "count": 2
+              "count": 1
             }
           ],
           "release_downloads": 0,
