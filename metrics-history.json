@@ -95149,6 +95149,2291 @@
           "release_count": 0
         }
       }
+    },
+    {
+      "date": "2026-08-05",
+      "repos": {
+        "nidhi-menon/Chrysalis-2016-by-Acrotrend-Solutions": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "R",
+          "description": "Project completed for Chrysalis-The Data Quest, a data science challenge by Acrotrend Solutions in 2016",
+          "clones_14d": 3,
+          "unique_cloners_14d": 3,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-03",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 0,
+          "unique_visitors_14d": 0,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/Computer-Vision-Projects": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "HTML",
+          "description": null,
+          "clones_14d": 5,
+          "unique_cloners_14d": 5,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-27",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 2,
+              "uniques": 2
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 1,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/Computer-Vision-Projects",
+              "count": 1
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/CreativeAI": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "Jupyter Notebook",
+          "description": null,
+          "clones_14d": 4,
+          "unique_cloners_14d": 4,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-02",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 1,
+              "uniques": 1
+            }
+          ],
+          "views_14d": 0,
+          "unique_visitors_14d": 0,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/DataAggregatorProfiler": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "C++",
+          "description": "Course project as part of CS 8803 (Data Analytics using Deep Learning) at GeorgiaTech under Dr. Joy Arulraj in Fall 2018",
+          "clones_14d": 4,
+          "unique_cloners_14d": 4,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-26",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 1,
+              "uniques": 1
+            }
+          ],
+          "views_14d": 0,
+          "unique_visitors_14d": 0,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/Graduate-Research-in-Computer-Vision-and-Deep-Learning": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "Jupyter Notebook",
+          "description": "Project completed as a graduate research student under Dr. Dobromir Rahnev at GaTech in Spring 2018",
+          "clones_14d": 3,
+          "unique_cloners_14d": 3,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-02",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 0,
+          "unique_visitors_14d": 0,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/HealthSteward": {
+          "stars": 3,
+          "forks": 0,
+          "watchers": 3,
+          "open_issues": 53,
+          "language": "Python",
+          "description": "Local, privacy-first agentic AI for patients navigating fragmented care",
+          "clones_14d": 144,
+          "unique_cloners_14d": 44,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 3,
+              "uniques": 3
+            },
+            {
+              "date": "2026-07-24",
+              "count": 2,
+              "uniques": 2
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-27",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-28",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-29",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 91,
+              "uniques": 8
+            },
+            {
+              "date": "2026-08-03",
+              "count": 7,
+              "uniques": 7
+            },
+            {
+              "date": "2026-08-04",
+              "count": 16,
+              "uniques": 12
+            },
+            {
+              "date": "2026-08-05",
+              "count": 21,
+              "uniques": 16
+            }
+          ],
+          "views_14d": 93,
+          "unique_visitors_14d": 10,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 9,
+              "uniques": 2
+            },
+            {
+              "date": "2026-07-24",
+              "count": 2,
+              "uniques": 2
+            },
+            {
+              "date": "2026-07-25",
+              "count": 2,
+              "uniques": 2
+            },
+            {
+              "date": "2026-07-26",
+              "count": 2,
+              "uniques": 2
+            },
+            {
+              "date": "2026-07-27",
+              "count": 4,
+              "uniques": 2
+            },
+            {
+              "date": "2026-07-28",
+              "count": 2,
+              "uniques": 2
+            },
+            {
+              "date": "2026-07-29",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 2,
+              "uniques": 2
+            },
+            {
+              "date": "2026-08-01",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-02",
+              "count": 5,
+              "uniques": 2
+            },
+            {
+              "date": "2026-08-03",
+              "count": 20,
+              "uniques": 4
+            },
+            {
+              "date": "2026-08-04",
+              "count": 13,
+              "uniques": 2
+            },
+            {
+              "date": "2026-08-05",
+              "count": 30,
+              "uniques": 3
+            }
+          ],
+          "top_referrers": [
+            {
+              "source": "healthstewardai.com",
+              "count": 16,
+              "uniques": 5
+            },
+            {
+              "source": "github.com",
+              "count": 6,
+              "uniques": 2
+            }
+          ],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/HealthSteward",
+              "count": 26
+            },
+            {
+              "path": "/nidhi-menon/HealthSteward/issues",
+              "count": 23
+            },
+            {
+              "path": "/nidhi-menon/HealthSteward/pulls",
+              "count": 11
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 2
+        },
+        "nidhi-menon/Meetup.com-Analytics-and-Visualization": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": null,
+          "description": "Course project as part of CS 8803 - DV at GeorgiaTech under Dr. Rahul Basole in Spring 2018",
+          "clones_14d": 3,
+          "unique_cloners_14d": 3,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 2,
+              "uniques": 2
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 1,
+              "uniques": 1
+            }
+          ],
+          "views_14d": 0,
+          "unique_visitors_14d": 0,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/MovieLens-Recommendation-Systems": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 8,
+          "language": "Jupyter Notebook",
+          "description": "Course project as part of CS 6220 at GeorgiaTech under Dr. Ling Liu in Fall 2018",
+          "clones_14d": 3,
+          "unique_cloners_14d": 3,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 0,
+          "unique_visitors_14d": 0,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/nidhi-gh-stats": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "HTML",
+          "description": null,
+          "clones_14d": 75,
+          "unique_cloners_14d": 38,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 4,
+              "uniques": 3
+            },
+            {
+              "date": "2026-07-24",
+              "count": 4,
+              "uniques": 3
+            },
+            {
+              "date": "2026-07-25",
+              "count": 12,
+              "uniques": 8
+            },
+            {
+              "date": "2026-07-26",
+              "count": 4,
+              "uniques": 3
+            },
+            {
+              "date": "2026-07-27",
+              "count": 7,
+              "uniques": 5
+            },
+            {
+              "date": "2026-07-28",
+              "count": 4,
+              "uniques": 3
+            },
+            {
+              "date": "2026-07-29",
+              "count": 14,
+              "uniques": 9
+            },
+            {
+              "date": "2026-07-30",
+              "count": 4,
+              "uniques": 3
+            },
+            {
+              "date": "2026-07-31",
+              "count": 5,
+              "uniques": 4
+            },
+            {
+              "date": "2026-08-01",
+              "count": 3,
+              "uniques": 2
+            },
+            {
+              "date": "2026-08-02",
+              "count": 4,
+              "uniques": 3
+            },
+            {
+              "date": "2026-08-03",
+              "count": 3,
+              "uniques": 2
+            },
+            {
+              "date": "2026-08-04",
+              "count": 2,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-05",
+              "count": 5,
+              "uniques": 4
+            }
+          ],
+          "views_14d": 0,
+          "unique_visitors_14d": 0,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/nidhi-menon.github.io": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "HTML",
+          "description": "Personal Website",
+          "clones_14d": 3,
+          "unique_cloners_14d": 3,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 1,
+              "uniques": 1
+            }
+          ],
+          "views_14d": 2,
+          "unique_visitors_14d": 1,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 2,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [
+            {
+              "source": "github.com",
+              "count": 1,
+              "uniques": 1
+            }
+          ],
+          "popular_paths": [
+            {
+              "path": "/nidhi-menon/nidhi-menon.github.io",
+              "count": 2
+            }
+          ],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/PeraNoto-Undergrad-research-project": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "MATLAB",
+          "description": "Undergrad research project in the domain of ML, using genetic algorithm to generate layouts for furniture placement ",
+          "clones_14d": 3,
+          "unique_cloners_14d": 3,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 0,
+          "unique_visitors_14d": 0,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/Smart-India-Hackathon-2017": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": "PHP",
+          "description": "Project completed for NCPCR department within Govt. of India as part of Smart India Hackathon 2017, an initiative by Narendra Modi",
+          "clones_14d": 2,
+          "unique_cloners_14d": 2,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 0,
+          "unique_visitors_14d": 0,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/StackOverflow-Data-Analytics": {
+          "stars": 2,
+          "forks": 0,
+          "watchers": 2,
+          "open_issues": 0,
+          "language": "Python",
+          "description": "Course project as part of CSE 6242 at GeorgiaTech under Dr. Duen Horng (Polo) Chau in Fall 2017",
+          "clones_14d": 5,
+          "unique_cloners_14d": 5,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 3,
+              "uniques": 3
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 0,
+          "unique_visitors_14d": 0,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [],
+          "release_downloads": 0,
+          "release_count": 0
+        },
+        "nidhi-menon/Unimate-RecommendationSystem-for-Students": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "language": null,
+          "description": "Course project as part of CS 6235 at GeorgiaTech under Dr. Calton Pu in Fall 2017",
+          "clones_14d": 4,
+          "unique_cloners_14d": 4,
+          "clones_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 1,
+              "uniques": 1
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 2,
+              "uniques": 2
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "views_14d": 0,
+          "unique_visitors_14d": 0,
+          "views_daily": [
+            {
+              "date": "2026-07-23",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-26",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-27",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-28",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-29",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-30",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-07-31",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-01",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-02",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-03",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-04",
+              "count": 0,
+              "uniques": 0
+            },
+            {
+              "date": "2026-08-05",
+              "count": 0,
+              "uniques": 0
+            }
+          ],
+          "top_referrers": [],
+          "popular_paths": [],
+          "release_downloads": 0,
+          "release_count": 0
+        }
+      }
     }
   ]
 }
